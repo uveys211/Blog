@@ -1,0 +1,597 @@
+@charset "UTF-8";
+#header {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  z-index: 1;
+  background-color: #24315E;
+}
+#header .logo {
+  width: 130px;
+  margin-top: 15px;
+}
+#header .nav-menu {
+  list-style: none;
+}
+#header .nav-menu li {
+  padding: 0 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+#header .nav-menu li:hover {
+  color: #ff4612;
+}
+#header .cv {
+  margin-top: 10px;
+  border: none;
+  padding: 10px 30px;
+  background-color: #24315e;
+  color: white;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+#header .cv:hover {
+  color: #24315e;
+  background-color: white;
+}
+#header hr {
+  color: blue;
+}
+
+#james {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(/images/1.jpg);
+}
+#james .box-left h2 {
+  margin-top: 200px;
+  font-size: 40px;
+  color: #24315E;
+  margin-bottom: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#james .box-left h1 {
+  font-size: 70px;
+  color: #24315E;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+#james .box-left h3 {
+  color: #24315E;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+#james .box-left .say {
+  padding: 10px 35px;
+  font-weight: 600;
+  border: #24315E 2px solid;
+  transition: 0.2s ease-in-out;
+  margin-right: 40px;
+}
+#james .box-left .say:hover {
+  background-color: #24315E;
+  color: white;
+}
+#james .box-left .work {
+  color: #24315E;
+  font-size: 19px;
+  margin-top: 10px;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#james .box-left .work:hover {
+  text-decoration: none;
+}
+#james .box-left .listen {
+  width: 30%;
+  margin-top: 200px;
+  font-size: 20px;
+  color: #24315E;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  z-index: 1;
+}
+#james .box-left .tik {
+  position: relative;
+  top: 200px;
+}
+#james .box-right {
+  position: relative;
+}
+#james .box-right .back {
+  position: absolute;
+  width: 80%;
+  top: 35.5%;
+}
+
+#clients {
+  background-color: #24315E;
+  width: 100%;
+  height: 30vh;
+}
+#clients .box-top {
+  margin-top: 30px;
+  text-align: center;
+}
+#clients .box-top hr {
+  width: 150px;
+  height: 10px;
+  color: white;
+}
+#clients .box-top h4 {
+  color: white;
+  margin: 0 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#smart {
+  background-color: #3D4970;
+  height: 1100px;
+}
+#smart .boxes {
+  padding-top: 100px;
+}
+#smart .boxes .box-left {
+  border-right: 2px solid gray;
+}
+#smart .boxes .box-center {
+  border-right: 2px solid gray;
+}
+#smart .boxes i {
+  color: yellow;
+  font-size: 30px;
+  margin-right: 30px;
+  padding-top: 10px;
+}
+#smart .boxes .lamp {
+  color: pink;
+}
+#smart .boxes .hotel {
+  color: rgb(64, 64, 255);
+}
+#smart .boxes h1 {
+  color: white;
+  font-size: 30px;
+}
+#smart .boxes p {
+  color: #c5c8d4;
+  width: 80%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+#smart .boxes1 {
+  margin-top: 100px;
+}
+#smart .boxes1 .box-left1 h5 {
+  color: #ff4612;
+  margin: 20px 0;
+}
+#smart .boxes1 .box-left1 h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+#smart .boxes1 .box-left1 p {
+  color: #c5c8d4;
+  font-size: 20px;
+}
+#smart .boxes1 .box-right1 {
+  position: relative;
+  margin-left: 100px;
+  background: url(/images/1\ \(1\).jpg);
+  width: 50%;
+  height: 50vh;
+}
+#smart .boxes1 .box-right1 .noqte {
+  position: absolute;
+  top: -30px;
+  left: -20px;
+}
+#smart .boxes1 .box-right1 .daire {
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+}
+#smart .boxes1 .box-right1 ul {
+  align-items: center;
+  list-style: none;
+}
+#smart .boxes1 .box-right1 ul li {
+  padding: 15px 20px;
+  background-color: white;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 20px;
+  border: 2px solid black;
+}
+#smart .boxes1 .box-right1 ul li span {
+  font-weight: 700;
+  color: #24315E;
+}
+#smart .boxes1 .box-right1 ul li .html5 {
+  padding: 10px;
+}
+#smart .boxes3 {
+  margin-top: 150px;
+}
+#smart .boxes3 h1 {
+  font-size: 70px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+#smart .boxes3 p {
+  color: #c5c8d4;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+#about {
+  background: url(/images/background.jpg);
+}
+#about .box-left {
+  margin-top: 100px;
+}
+#about .box-right {
+  margin-top: 150px;
+}
+#about .box-right h5 {
+  color: red;
+}
+#about .box-right h1 {
+  color: #24315E;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#about .box-right p {
+  color: gray;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+#about .box-right a {
+  text-decoration: none;
+  color: white;
+  padding: 18px 35px;
+  font-weight: 700;
+  background-color: #24315E;
+  transition: 0.3s ease-in-out;
+}
+#about .box-right a:hover {
+  color: #24315E;
+  background-color: white;
+}
+
+#slider {
+  background-color: #3D4970;
+  width: 100%;
+  height: 90vh;
+}
+#slider .boxes {
+  padding-top: 180px;
+}
+#slider .boxes .box-right h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+#slider .boxes .box-right p {
+  color: #c5c8d4;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+#slider .boxes .box-right .jobs {
+  color: white;
+}
+#slider .boxes .box-right .abc {
+  color: #c5c8d4;
+}
+#slider .boxes .prev-button {
+  width: 100px;
+  align-items: center;
+}
+#slider .boxes .next-button {
+  position: relative;
+  left: 100%;
+  top: -205px;
+  width: 100px;
+  align-items: center;
+}
+
+#photo {
+  width: 100%;
+  height: 80vh;
+}
+#photo h3 {
+  text-align: center;
+}
+
+#faq {
+  padding-top: 100px;
+  background-color: #3D4970;
+  /* Accordion styles */
+}
+#faq .boxes {
+  width: 70%;
+  margin: auto;
+}
+#faq body {
+  color: #24315E;
+  background: #ecf0f1;
+  padding: 0 1em 1em;
+}
+#faq h1 {
+  margin: 0;
+  line-height: 2;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  width: 500px;
+  margin: auto;
+}
+#faq h4 {
+  margin: 0;
+  line-height: 2;
+  text-align: center;
+  color: #ff4612;
+}
+#faq h2 {
+  margin: 0 0 0.5em;
+  font-weight: normal;
+}
+#faq input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+#faq .row {
+  display: flex;
+}
+#faq .row .col {
+  flex: 1;
+}
+#faq .row .col:last-child {
+  margin-left: 1em;
+}
+#faq .tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+#faq .tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+#faq .tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #24315E;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  /* Icon */
+}
+#faq .tab-label:hover {
+  background: #161e39;
+}
+#faq .tab-label::after {
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+#faq .tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #c5c8d4;
+  font-size: 20px;
+  background: #24315E;
+  transition: all 0.35s;
+}
+#faq .tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #24315E;
+  cursor: pointer;
+}
+#faq .tab-close:hover {
+  background: #161e39;
+}
+#faq input:checked + .tab-label {
+  background: #161e39;
+}
+#faq input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+#faq input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
+#available {
+  background: url(/images/1.jpg);
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+#available .start {
+  position: absolute;
+  top: 30%;
+  left: -50px;
+}
+#available .end {
+  position: absolute;
+  right: 0;
+}
+#available .boxes {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  flex-direction: column;
+}
+#available .boxes h1 {
+  color: #24315E;
+  font-weight: 700;
+  font-size: 50px;
+}
+#available .boxes a {
+  text-decoration: none;
+  width: 70%;
+  text-align: center;
+  color: #24315E;
+  font-weight: 600;
+  margin: auto;
+  background-color: white;
+  padding: 10px 10px;
+  border: 2px solid #24315E;
+  transition: 0.3s ease-in-out;
+}
+#available .boxes a:hover {
+  color: white;
+  background-color: #24315E;
+}
+
+#check {
+  padding-top: 200px;
+  background-color: #3D4970;
+}
+#check h4 {
+  color: #ff4612;
+  margin-bottom: 10px;
+}
+#check h1 {
+  color: white;
+  width: 40%;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+#check .boxes .box1 {
+  margin-bottom: 150px;
+}
+#check .boxes .box1 .img {
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 40mm;
+  border: 1px solid #24315E;
+  transition: 0.5s ease-in-out;
+}
+#check .boxes .box1 .img img {
+  display: block;
+  transition: 0.5s ease-in-out;
+  max-width: 100%;
+  max-height: 100%;
+}
+#check .boxes .box1 .img:hover {
+  transform: scale(1.3);
+}
+#check .boxes .box1 h3 {
+  color: white;
+}
+#check .boxes .box1 p {
+  color: white;
+}
+
+#contact {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(/images/background\ \(1\).jpg);
+}
+#contact .boxes {
+  padding-top: 100px;
+}
+#contact .boxes .box-left h5 {
+  margin-left: 50px;
+  color: #ff4612;
+}
+#contact .boxes .box-left h1 {
+  color: white;
+}
+#contact .boxes .box-left p {
+  color: #c5c8d4;
+  font-size: 20px;
+}
+#contact .boxes .box-left a {
+  color: white;
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+}
+#contact .boxes .box-left a:hover {
+  text-decoration: none;
+}
+#contact .boxes .box-left img {
+  margin-top: 100px;
+}
+#contact .boxes .box-right {
+  background-color: white;
+  padding: 20px;
+}
+#contact .boxes .box-right .name {
+  width: 80%;
+  margin: auto;
+  border: 2px solid #24315E;
+  border-radius: 0;
+  padding: 20px 0;
+}
+#contact .boxes .box-right .email {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  border: 2px solid #24315E;
+  border-radius: 0;
+  padding: 20px 0;
+}
+#contact .boxes .box-right .message {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  border: 2px solid #24315E;
+  border-radius: 0;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+#contact .boxes .box-right .submit {
+  width: 100%;
+  background-color: #06d8a7;
+  padding: 15px;
+  color: #24315E;
+  font-weight: 600;
+  font-size: 18px;
+}
+#contact .boxes .box-right .sosial .box1 {
+  padding: 20px;
+  border-radius: 8mm;
+  background-color: #24315E;
+  color: white;
+  margin: 10px;
+}
+#contact .noqte {
+  position: absolute;
+  left: -30px;
+  top: 100px;
+}
+#contact .noqte1 {
+  position: absolute;
+  right: -20px;
+  top: 70%;
+}/*# sourceMappingURL=style.css.map */
